@@ -1,0 +1,96 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3448,         88]
+NotebookOptionsPosition[      2510,         66]
+NotebookOutlinePosition[      2958,         83]
+CellTagsIndexPosition[      2915,         80]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Find or generate a definition of mathematical chaos. ", "ItemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.9266781483820877`*^9}, {3.9266782192080164`*^9, 
+  3.926678221519329*^9}, {3.926678403585885*^9, 
+  3.926678403585885*^9}},ExpressionUUID->"c37ff8e9-7da2-4c77-ab76-\
+bd8646f96fe2"],
+
+Cell["Find or generate a chaotic dynamical system.", "ItemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.9266781483820877`*^9}, {3.9266782192080164`*^9, 
+  3.926678221519329*^9}, {3.9266784084284863`*^9, 
+  3.926678429024909*^9}},ExpressionUUID->"bcec9be3-c795-466c-a108-\
+cd9c732260c6"],
+
+Cell["\<\
+Numerically solve and plot a system of ODEs  in the software of your choice.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.9266781165138326`*^9}, {3.926678596360729*^9, 
+  3.9266785975528545`*^9}},ExpressionUUID->"8e6d2f1f-df5a-408f-8c6c-\
+35b4785155d5"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Explain how to numerically solve and plot a system of ODEs in the software of \
+your choice.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785631621747`*^9, 
+  3.9266785881232815`*^9}},ExpressionUUID->"db0d5b48-4399-43e4-a026-\
+555f48a25c62"],
+
+Cell["Script", "SubitemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785648170686`*^9, 
+  3.926678566363403*^9}},ExpressionUUID->"e1778d88-9eaf-4fd8-9d37-\
+e167711ca627"],
+
+Cell["Video", "SubitemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785648170686`*^9, 
+  3.9266785695776834`*^9}},ExpressionUUID->"adbf83c6-6da0-4b42-833c-\
+e1f803d5f51a"]
+}, Open  ]]
+},
+WindowSize->{1017, 579.6},
+WindowMargins->{{Automatic, 45}, {Automatic, 31.799999999999997`}},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"1a9660e5-fb5c-4624-b64f-039b7cb7a650"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 353, 5, 48, "ItemNumbered",ExpressionUUID->"c37ff8e9-7da2-4c77-ab76-bd8646f96fe2"],
+Cell[914, 27, 346, 5, 48, "ItemNumbered",ExpressionUUID->"bcec9be3-c795-466c-a108-cd9c732260c6"],
+Cell[1263, 34, 335, 6, 48, "ItemNumbered",ExpressionUUID->"8e6d2f1f-df5a-408f-8c6c-35b4785155d5"],
+Cell[CellGroupData[{
+Cell[1623, 44, 350, 7, 48, "ItemNumbered",ExpressionUUID->"db0d5b48-4399-43e4-a026-555f48a25c62"],
+Cell[1976, 53, 257, 4, 39, "SubitemNumbered",ExpressionUUID->"e1778d88-9eaf-4fd8-9d37-e167711ca627"],
+Cell[2236, 59, 258, 4, 39, "SubitemNumbered",ExpressionUUID->"adbf83c6-6da0-4b42-833c-e1f803d5f51a"]
+}, Open  ]]
+}
+]
+*)
+
