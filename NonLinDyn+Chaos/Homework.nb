@@ -10,20 +10,70 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      3448,         88]
-NotebookOptionsPosition[      2510,         66]
-NotebookOutlinePosition[      2958,         83]
-CellTagsIndexPosition[      2915,         80]
+NotebookDataLength[      8398,        195]
+NotebookOptionsPosition[      6348,        157]
+NotebookOutlinePosition[      6794,        174]
+CellTagsIndexPosition[      6751,        171]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-Cell["Find or generate a definition of mathematical chaos. ", "ItemNumbered",
+Cell["Find or generate a definition of an ODE and an IVP system.", \
+"ItemNumbered",
  CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
   3.9266780850776033`*^9, 3.9266781483820877`*^9}, {3.9266782192080164`*^9, 
-  3.926678221519329*^9}, {3.926678403585885*^9, 
-  3.926678403585885*^9}},ExpressionUUID->"c37ff8e9-7da2-4c77-ab76-\
+  3.926678221519329*^9}, {3.926678403585885*^9, 3.926678403585885*^9}, {
+  3.9268516463257647`*^9, 
+  3.9268516800744553`*^9}},ExpressionUUID->"c37ff8e9-7da2-4c77-ab76-\
 bd8646f96fe2"],
+
+Cell["\<\
+Numerically solve and plot a system of ODEs  in the software of your choice.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.9266781165138326`*^9}, {3.926678596360729*^9, 
+  3.9266785975528545`*^9}},ExpressionUUID->"70dcbdcb-a439-4c70-a962-\
+f6ee3d0bcf0a"],
+
+Cell["\<\
+Find or generate a definition of mathematical chaos for an ODE system\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+   3.9266780850776033`*^9, 3.9266781483820877`*^9}, {3.9266782192080164`*^9, 
+   3.926678221519329*^9}, {3.926678403585885*^9, 3.926678403585885*^9}, {
+   3.926851681805894*^9, 3.926851689877269*^9}, 
+   3.9268517994722443`*^9},ExpressionUUID->"4bef503c-ffeb-427b-a1a6-\
+736ea8acaf80"],
+
+Cell[CellGroupData[{
+
+Cell["Find out what the van der Pol system of ODEs is.", "ItemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.9266781483820877`*^9}, {3.9266782192080164`*^9, 
+  3.926678221519329*^9}, {3.926678403585885*^9, 3.926678403585885*^9}, {
+  3.926851681805894*^9, 3.926851689877269*^9}, {3.9268517994722443`*^9, 
+  3.9268518313157454`*^9}},ExpressionUUID->"faba6f76-019d-46b1-819f-\
+8e033a7f5f1a"],
+
+Cell["Write down and solve the van der Pol ODE as a system.", \
+"SubitemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.9266781483820877`*^9}, {3.9266782192080164`*^9, 
+  3.926678221519329*^9}, {3.926678403585885*^9, 3.926678403585885*^9}, {
+  3.926851681805894*^9, 3.926851689877269*^9}, {3.9268517994722443`*^9, 
+  3.926851868423553*^9}},ExpressionUUID->"0894fb18-f92c-45d3-8236-\
+09ecb598b807"],
+
+Cell["\<\
+Write down and solve the van der Pol ODE as a second order ODE..\
+\>", "SubitemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.9266781483820877`*^9}, {3.9266782192080164`*^9, 
+  3.926678221519329*^9}, {3.926678403585885*^9, 3.926678403585885*^9}, {
+  3.926851681805894*^9, 3.926851689877269*^9}, {3.9268517994722443`*^9, 
+  3.926851884679983*^9}},ExpressionUUID->"4269bb68-7999-4574-9e1f-\
+00c7ca0bfbdb"]
+}, Open  ]],
 
 Cell["Find or generate a chaotic dynamical system.", "ItemNumbered",
  CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
@@ -31,14 +81,6 @@ Cell["Find or generate a chaotic dynamical system.", "ItemNumbered",
   3.926678221519329*^9}, {3.9266784084284863`*^9, 
   3.926678429024909*^9}},ExpressionUUID->"bcec9be3-c795-466c-a108-\
 cd9c732260c6"],
-
-Cell["\<\
-Numerically solve and plot a system of ODEs  in the software of your choice.\
-\>", "ItemNumbered",
- CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
-  3.9266780850776033`*^9, 3.9266781165138326`*^9}, {3.926678596360729*^9, 
-  3.9266785975528545`*^9}},ExpressionUUID->"8e6d2f1f-df5a-408f-8c6c-\
-35b4785155d5"],
 
 Cell[CellGroupData[{
 
@@ -62,12 +104,61 @@ Cell["Video", "SubitemNumbered",
   3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785648170686`*^9, 
   3.9266785695776834`*^9}},ExpressionUUID->"adbf83c6-6da0-4b42-833c-\
 e1f803d5f51a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Explain how to convert a second order ODE into a system of first order ODEs.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785631621747`*^9, 
+  3.9266785881232815`*^9}, {3.926852161531351*^9, 
+  3.9268522104325666`*^9}},ExpressionUUID->"466c11d5-f17d-44b2-abeb-\
+316243bd3f52"],
+
+Cell["Script", "SubitemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785648170686`*^9, 
+  3.926678566363403*^9}},ExpressionUUID->"f40f5404-f990-49e3-9202-\
+292ff50b0bf7"],
+
+Cell["Video", "SubitemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785648170686`*^9, 
+  3.9266785695776834`*^9}},ExpressionUUID->"082081e0-05b7-45a5-a84e-\
+d5ace4ae43d8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Explain how to convert a system of higher order ODEs into a larger system of \
+first roder ODEs.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785631621747`*^9, 
+  3.9266785881232815`*^9}, {3.926852161531351*^9, 
+  3.926852223257325*^9}},ExpressionUUID->"2f282dff-1271-4329-9447-\
+eb603f4c9e4e"],
+
+Cell["Script", "SubitemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785648170686`*^9, 
+  3.926678566363403*^9}},ExpressionUUID->"a4da16db-adbe-45b8-bcef-\
+c236030e5882"],
+
+Cell["Video", "SubitemNumbered",
+ CellChangeTimes->{{3.921326602968244*^9, 3.921326608589943*^9}, {
+  3.9266780850776033`*^9, 3.92667812951035*^9}, {3.9266785648170686`*^9, 
+  3.9266785695776834`*^9}},ExpressionUUID->"78cdf36f-e7df-49e5-8e71-\
+b5f4f4091628"]
 }, Open  ]]
 },
 WindowSize->{1017, 579.6},
 WindowMargins->{{Automatic, 45}, {Automatic, 31.799999999999997`}},
 Magnification:>1.5 Inherited,
-FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+FrontEndVersion->"13.0 for Mac OS X ARM (64-bit) (December 2, 2021)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"1a9660e5-fb5c-4624-b64f-039b7cb7a650"
 ]
@@ -82,13 +173,29 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 353, 5, 48, "ItemNumbered",ExpressionUUID->"c37ff8e9-7da2-4c77-ab76-bd8646f96fe2"],
-Cell[914, 27, 346, 5, 48, "ItemNumbered",ExpressionUUID->"bcec9be3-c795-466c-a108-cd9c732260c6"],
-Cell[1263, 34, 335, 6, 48, "ItemNumbered",ExpressionUUID->"8e6d2f1f-df5a-408f-8c6c-35b4785155d5"],
+Cell[558, 20, 413, 7, 48, "ItemNumbered",ExpressionUUID->"c37ff8e9-7da2-4c77-ab76-bd8646f96fe2"],
+Cell[974, 29, 335, 6, 48, "ItemNumbered",ExpressionUUID->"70dcbdcb-a439-4c70-a962-f6ee3d0bcf0a"],
+Cell[1312, 37, 454, 8, 48, "ItemNumbered",ExpressionUUID->"4bef503c-ffeb-427b-a1a6-736ea8acaf80"],
 Cell[CellGroupData[{
-Cell[1623, 44, 350, 7, 48, "ItemNumbered",ExpressionUUID->"db0d5b48-4399-43e4-a026-555f48a25c62"],
-Cell[1976, 53, 257, 4, 39, "SubitemNumbered",ExpressionUUID->"e1778d88-9eaf-4fd8-9d37-e167711ca627"],
-Cell[2236, 59, 258, 4, 39, "SubitemNumbered",ExpressionUUID->"adbf83c6-6da0-4b42-833c-e1f803d5f51a"]
+Cell[1791, 49, 447, 6, 48, "ItemNumbered",ExpressionUUID->"faba6f76-019d-46b1-819f-8e033a7f5f1a"],
+Cell[2241, 57, 455, 7, 39, "SubitemNumbered",ExpressionUUID->"0894fb18-f92c-45d3-8236-09ecb598b807"],
+Cell[2699, 66, 472, 8, 39, "SubitemNumbered",ExpressionUUID->"4269bb68-7999-4574-9e1f-00c7ca0bfbdb"]
+}, Open  ]],
+Cell[3186, 77, 346, 5, 48, "ItemNumbered",ExpressionUUID->"bcec9be3-c795-466c-a108-cd9c732260c6"],
+Cell[CellGroupData[{
+Cell[3557, 86, 350, 7, 48, "ItemNumbered",ExpressionUUID->"db0d5b48-4399-43e4-a026-555f48a25c62"],
+Cell[3910, 95, 257, 4, 39, "SubitemNumbered",ExpressionUUID->"e1778d88-9eaf-4fd8-9d37-e167711ca627"],
+Cell[4170, 101, 258, 4, 39, "SubitemNumbered",ExpressionUUID->"adbf83c6-6da0-4b42-833c-e1f803d5f51a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4465, 110, 385, 7, 48, "ItemNumbered",ExpressionUUID->"466c11d5-f17d-44b2-abeb-316243bd3f52"],
+Cell[4853, 119, 257, 4, 39, "SubitemNumbered",ExpressionUUID->"f40f5404-f990-49e3-9202-292ff50b0bf7"],
+Cell[5113, 125, 258, 4, 39, "SubitemNumbered",ExpressionUUID->"082081e0-05b7-45a5-a84e-d5ace4ae43d8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5408, 134, 403, 8, 80, "ItemNumbered",ExpressionUUID->"2f282dff-1271-4329-9447-eb603f4c9e4e"],
+Cell[5814, 144, 257, 4, 39, "SubitemNumbered",ExpressionUUID->"a4da16db-adbe-45b8-bcef-c236030e5882"],
+Cell[6074, 150, 258, 4, 39, "SubitemNumbered",ExpressionUUID->"78cdf36f-e7df-49e5-8e71-b5f4f4091628"]
 }, Open  ]]
 }
 ]
