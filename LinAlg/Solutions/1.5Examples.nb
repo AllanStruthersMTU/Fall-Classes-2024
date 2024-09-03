@@ -1,0 +1,141 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3836,        131]
+NotebookOptionsPosition[      3290,        115]
+NotebookOutlinePosition[      3698,        131]
+CellTagsIndexPosition[      3655,        128]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "Ex 1)  Does the linear system ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"A", " ", "x"}], " ", "=", "0"}], TraditionalForm]],
+  ExpressionUUID->"ced70ffe-9dfa-4a6c-88ff-bc3d4a464da2"],
+ " have non-trivial solutions when \n\t",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"A", "=", 
+    RowBox[{"(", GridBox[{
+       {"1", "2", "3"},
+       {"4", "5", "6"},
+       {"5", "7", "9"}
+      }], ")"}]}], TraditionalForm]],ExpressionUUID->
+  "4292a728-83a1-44a2-bff6-b4c45d525a28"],
+ "\nFind a formula for all solutions."
+}], "Text",
+ CellChangeTimes->{{3.902759834499263*^9, 3.902759932925351*^9}, {
+  3.93435972995671*^9, 
+  3.9343597392892194`*^9}},ExpressionUUID->"31a69a6d-7e50-401e-82fe-\
+95c2132e6d01"],
+
+Cell[TextData[{
+ "\n\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", 
+    RowBox[{
+     RowBox[{"(", GridBox[{
+        {
+         SubscriptBox["x", "1"]},
+        {
+         SubscriptBox["x", "2"]},
+        {
+         SubscriptBox["x", "3"]}
+       }], ")"}], "="}]}], TraditionalForm]],ExpressionUUID->
+  "f5f935b4-4a04-4d9a-bd35-8dc6c2511267"],
+ "\n\n\n\n\n"
+}], "Text",
+ CellChangeTimes->{{3.93435984742533*^9, 3.9343598487165585`*^9}, {
+  3.934359910726821*^9, 
+  3.9343599226587076`*^9}},ExpressionUUID->"82a4d37f-77c0-4100-a85b-\
+1b843237a508"],
+
+Cell[TextData[{
+ "Ex 2)  Fill in the missing value so that the linear system ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"A", " ", "x"}], " ", "=", "b"}], TraditionalForm]],
+  ExpressionUUID->"c7852dc9-4fbd-47e9-8071-1310a0031778"],
+ " with \n\t",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"A", "=", 
+    RowBox[{"(", GridBox[{
+       {"1", "2", "3"},
+       {"4", "5", "6"},
+       {"5", "7", "9"}
+      }], ")"}]}], TraditionalForm]],ExpressionUUID->
+  "95e9be38-9c38-4023-ba70-4e7754b5604a"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"b", "=", 
+    RowBox[{"(", GridBox[{
+       {
+        RowBox[{"-", "7"}]},
+       {"5"},
+       {"             "}
+      }], ")"}]}], TraditionalForm]],ExpressionUUID->
+  "a33318f1-9ed4-406d-b247-db350d356e87"],
+ "\nis consistent. Find a formula for all solutions in this case .\n\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", 
+    RowBox[{
+     RowBox[{"(", GridBox[{
+        {
+         SubscriptBox["x", "1"]},
+        {
+         SubscriptBox["x", "2"]},
+        {
+         SubscriptBox["x", "3"]}
+       }], ")"}], "="}]}], TraditionalForm]],ExpressionUUID->
+  "b2c4cbb1-e41d-462a-ba42-029f53ff8b42"]
+}], "Text",
+ CellChangeTimes->{{3.902759834499263*^9, 3.902759932925351*^9}, {
+  3.93435972995671*^9, 3.9343597392892194`*^9}, {3.93435985280262*^9, 
+  3.9343598981423545`*^9}, {3.9343599363727455`*^9, 
+  3.934359937194627*^9}},ExpressionUUID->"295724cb-a15e-421a-891b-\
+bb62f88084ac"]
+},
+WindowSize->{1140, 564},
+WindowMargins->{{Automatic, -1656.5}, {Automatic, -300.5}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"93b01493-6ae8-4424-984e-4fc1887e2a2f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 724, 22, 116, "Text",ExpressionUUID->"31a69a6d-7e50-401e-82fe-95c2132e6d01"],
+Cell[1285, 44, 555, 20, 251, "Text",ExpressionUUID->"82a4d37f-77c0-4100-a85b-1b843237a508"],
+Cell[1843, 66, 1443, 47, 217, "Text",ExpressionUUID->"295724cb-a15e-421a-891b-bb62f88084ac"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
