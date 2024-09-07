@@ -1,0 +1,152 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4411,        144]
+NotebookOptionsPosition[      3138,        116]
+NotebookOutlinePosition[      3756,        137]
+CellTagsIndexPosition[      3713,        134]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+
+Name:__________________      ID:_______________________\
+\>", "Section",
+ CellChangeTimes->{{3.933254723384708*^9, 3.9332547291509275`*^9}, {
+  3.933255078204401*^9, 3.933255079524706*^9}, {3.9343666763577414`*^9, 
+  3.934366692839282*^9}, {3.934366940714294*^9, 3.9343669692528524`*^9}},
+ FontSize->16,ExpressionUUID->"18b96043-46d2-4e80-86d5-b45064249f72"],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.9343669745814877`*^9},ExpressionUUID->"83f751c4-7eda-4a61-8c5c-\
+cf58bab95405"],
+
+Cell["\<\
+Is the vectors {7,8,1} in the span of the vectors {1,2,3} and {3,4,5}?  Show \
+your work and clearly state why?  \
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.9343667076953754`*^9, 3.9343668200913076`*^9}, {
+   3.9343670411724424`*^9, 3.934367076929758*^9}, 
+   3.9343671751160936`*^9},ExpressionUUID->"9aeb455d-f922-4196-972c-\
+19bacfd65513"],
+
+Cell["\<\
+
+
+
+
+
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.934366823090787*^9, 3.9343668238093395`*^9}, 
+   3.93436697892181*^9},ExpressionUUID->"cd55384c-809c-4470-a6f1-\
+564f765bad12"],
+
+Cell["\<\
+Are the vectors {1,2,3} and {3,4,5} LI or LD?  Clearly explain why?  \
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.9343667076953754`*^9, 3.9343668200913076`*^9}, {
+   3.9343670411724424`*^9, 3.934367076929758*^9}, 3.9343671751160936`*^9, {
+   3.934367287405175*^9, 3.9343673043735003`*^9}, {3.934471006710887*^9, 
+   3.9344710093356037`*^9}},ExpressionUUID->"840c1c76-dda4-480f-afde-\
+9614839042a3"],
+
+Cell["\<\
+
+
+
+
+
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.934366823090787*^9, 3.9343668238093395`*^9}, 
+   3.93436697892181*^9},ExpressionUUID->"fdd316b5-7b9c-4a22-9ba2-\
+b8e2fbc73ea6"],
+
+Cell[TextData[{
+ "Explain using standard terminology how you would determine if a set of 5 \
+vectors ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"a1", ",", "a2", ",", "a3", ",", "a4", ",", "a5"}], "}"}], " "}],
+    TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "33211fe9-569f-4e2b-b7bc-a0c4a013f66f"],
+ "in ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[DoubleStruckCapitalR]", "6"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "911c3c00-da01-49d3-bf05-ec4612748ab8"],
+ " were Linearly Independent.  "
+}], "ItemNumbered",
+ CellChangeTimes->{{3.9343667076953754`*^9, 
+  3.934366922841775*^9}},ExpressionUUID->"b07d16e4-2fe7-411e-be3a-\
+ec557499989c"],
+
+Cell["\<\
+
+
+
+
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.934366823090787*^9, 
+  3.9343668238093395`*^9}},ExpressionUUID->"5e599dfb-3c08-4540-9e83-\
+5013715b9d83"]
+}, Open  ]]
+},
+WindowToolbars->{"RulerBar", "MultipurposeBar"},
+WindowSize->{1141.2, 574.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+SpellingDictionaries->{"CorrectWords"->{
+ "unpivoted", "uncommented", "Shampine", "Saad", "Millenium", "Visualizable", 
+  "eigenstuff"}},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"655591e9-eb11-4ad9-8864-81affa87f2b0"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 369, 7, 111, "Section",ExpressionUUID->"18b96043-46d2-4e80-86d5-b45064249f72"],
+Cell[952, 31, 149, 3, 71, "Input",ExpressionUUID->"83f751c4-7eda-4a61-8c5c-cf58bab95405"],
+Cell[1104, 36, 352, 7, 79, "ItemNumbered",ExpressionUUID->"9aeb455d-f922-4196-972c-19bacfd65513"],
+Cell[1459, 45, 180, 11, 259, "Text",ExpressionUUID->"cd55384c-809c-4470-a6f1-564f765bad12"],
+Cell[1642, 58, 408, 7, 48, "ItemNumbered",ExpressionUUID->"840c1c76-dda4-480f-afde-9614839042a3"],
+Cell[2053, 67, 180, 11, 259, "Text",ExpressionUUID->"fdd316b5-7b9c-4a22-9ba2-b8e2fbc73ea6"],
+Cell[2236, 80, 726, 21, 79, "ItemNumbered",ExpressionUUID->"b07d16e4-2fe7-411e-be3a-ec557499989c"],
+Cell[2965, 103, 157, 10, 225, "Text",ExpressionUUID->"5e599dfb-3c08-4540-9e83-5013715b9d83"]
+}, Open  ]]
+}
+]
+*)
+

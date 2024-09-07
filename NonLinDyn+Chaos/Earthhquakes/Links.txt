@@ -1,0 +1,5 @@
+This tells us how to find real earthquake data. 
+
+https://www.quora.com/Where-can-I-find-ground-acceleration-data-for-earthquakes
+
+The other links are pretty self explanatory. 
