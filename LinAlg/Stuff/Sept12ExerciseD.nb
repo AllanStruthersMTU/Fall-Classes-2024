@@ -1,0 +1,244 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8283,        236]
+NotebookOptionsPosition[      6167,        178]
+NotebookOutlinePosition[      7835,        231]
+CellTagsIndexPosition[      7792,        228]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "Name: ",
+ StyleBox["                                             ",
+  FontVariations->{"Underline"->True}],
+ "      \t\tID #:______________________\nShow your work. Fill in the \
+appropriate blanks"
+}], "Text",
+ CellMargins->{{19.5, 10.}, {7., 8.}},
+ CellChangeTimes->{{3.9022119421591744`*^9, 3.9022119446720896`*^9}, {
+   3.902212079422366*^9, 3.9022120841135693`*^9}, {3.9028330157292385`*^9, 
+   3.902833096866953*^9}, {3.9028342273180037`*^9, 3.902834227902426*^9}, {
+   3.902837320926549*^9, 3.902837334801858*^9}, {3.902837480800968*^9, 
+   3.9028376022475977`*^9}, {3.902837766898444*^9, 3.902837794967425*^9}, {
+   3.9028379204990172`*^9, 3.9028379228806677`*^9}, {3.902838084663468*^9, 
+   3.9028380950331335`*^9}, {3.902838373481942*^9, 3.9028384110966396`*^9}, {
+   3.9028384693131523`*^9, 3.902838490608468*^9}, {3.9030833930970917`*^9, 
+   3.9030833970394354`*^9}, {3.903085234827416*^9, 3.9030852903643475`*^9}, {
+   3.933586789757003*^9, 3.933586812442255*^9}, 3.9335868529251833`*^9, {
+   3.935066668597777*^9, 3.935066672893199*^9}, {3.9350675453781395`*^9, 
+   3.935067547737955*^9}, {3.935146816347356*^9, 3.935146820012392*^9}, {
+   3.9351474822681627`*^9, 3.9351474866447015`*^9}, {3.935147770785788*^9, 
+   3.935147776461287*^9}},ExpressionUUID->"2411f8aa-dda1-4de9-9dc1-\
+fddd9660e667"],
+
+Cell["Q1) Explain how to invert a square matrix A.", "Text",
+ CellChangeTimes->{{3.935151035417909*^9, 3.935151035855452*^9}, {
+  3.9351513200349917`*^9, 3.935151360057582*^9}, {3.935151456919689*^9, 
+  3.935151470357255*^9}},ExpressionUUID->"f6b48d13-8c0b-4ef9-93ed-\
+45794d764322"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.9351514816765947`*^9, 
+  3.935151485014656*^9}},ExpressionUUID->"bf1791e7-23cf-49c8-9c74-\
+acd9affefd94"],
+
+Cell[TextData[{
+ "Q2) If the matrix ",
+ Cell[BoxData[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"0", "0", "1"},
+     {"0", "1", "2"},
+     {"2", "4", "8"}
+    }], "\[NoBreak]", ")"}]],
+  CellChangeTimes->{{3.9351514517666965`*^9, 3.9351514517666965`*^9}},
+  ExpressionUUID->"ac517ff0-8d24-41b8-beaf-fd5c63857597"],
+ "is invertible complete ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["A", 
+     RowBox[{"-", "1"}]], "=", 
+    TagBox[
+     RowBox[{"(", "\[NoBreak]", GridBox[{
+        {
+         StyleBox["1",
+          FontColor->GrayLevel[1]], 
+         StyleBox["2",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["1",
+          FontColor->GrayLevel[1]], 
+         StyleBox["1",
+          FontColor->GrayLevel[1]]},
+        {
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["1",
+          FontColor->GrayLevel[1]], 
+         StyleBox["5",
+          FontColor->GrayLevel[1]], 
+         StyleBox["2",
+          FontColor->GrayLevel[1]]},
+        {
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["1",
+          FontColor->GrayLevel[1]]},
+        {
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]]},
+        {
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]], 
+         StyleBox["0",
+          FontColor->GrayLevel[1]]}
+       },
+       GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+       GridBoxSpacings->{"Columns" -> {
+           Offset[0.27999999999999997`], {
+            Offset[0.7]}, 
+           Offset[0.27999999999999997`]}, "Rows" -> {
+           Offset[0.2], {
+            Offset[0.4]}, 
+           Offset[0.2]}}], "\[NoBreak]", ")"}],
+     Function[BoxForm`e$, 
+      MatrixForm[BoxForm`e$]]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0c16d541-915a-43f2-8f55-a29b13067b73"],
+ "\nwrite DNE in the splace for the matrix in the inverse does Not Exist!"
+}], "Text",
+ CellChangeTimes->{{3.935151035417909*^9, 3.935151035855452*^9}, {
+  3.9351513200349917`*^9, 3.9351514243337097`*^9}, {3.9351514958094645`*^9, 
+  3.9351516155898247`*^9}},ExpressionUUID->"6c1ef6b1-e6be-4c2d-8a65-\
+cb4b0073c41b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Inverse", "[", 
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"0", "1", "1"},
+     {"0", "1", "2"},
+     {"1", "1", "2"}
+    }], "\[NoBreak]", ")"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9351516421174192`*^9, 3.935151687499965*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"72a7be6f-882e-462c-86d5-a51d44e85c3c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", 
+     RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2", ",", 
+     RowBox[{"-", "1"}], ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", "1"}], ",", "1", ",", "0"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.9351516541399193`*^9, 3.9351516892497053`*^9}},
+ CellLabel->"Out[22]=",ExpressionUUID->"45916f21-12bc-4a42-8df2-31aa55cd41a8"]
+}, Open  ]]
+},
+ScreenStyleEnvironment->"Printout",
+PrintingStyleEnvironment->"Working",
+WindowToolbars->{"RulerBar", "EditBar"},
+WindowSize->{1141., 719.5},
+WindowMargins->{{1569, Automatic}, {-36.5, Automatic}},
+PrintingCopies->1,
+PrintingStartingPageNumber->1,
+PrintingPageRange->{Automatic, Automatic},
+PageHeaders->{{
+   Cell[
+    TextData[{
+      StyleBox[
+       CounterBox["Page"], "PageNumber"], "   ", "|", " ", 
+      ValueBox["FileName"]}], "Header", 
+    CellMargins -> {{0, Inherited}, {Inherited, Inherited}}], None, None}, {
+  None, None, 
+   Cell[
+    TextData[{
+      ValueBox["FileName"], " ", "|", "   ", 
+      StyleBox[
+       CounterBox["Page"], "PageNumber"]}], "Header", 
+    CellMargins -> {{Inherited, 0}, {Inherited, Inherited}}]}},
+PageFooters->{{None, None, None}, {None, None, None}},
+PageHeaderLines->{True, False},
+PageFooterLines->{False, False},
+PrintingOptions->{"FacingPages"->True,
+"FirstPageFace"->Right,
+"FirstPageFooter"->True,
+"FirstPageHeader"->True,
+"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{612, 792}},
+TaggingRules-><|"TryRealOnly" -> False|>,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData["Output"]]}, Visible -> False, FrontEndVersion -> 
+  "13.3 for Microsoft Windows (64-bit) (July 24, 2023)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"7bbae082-cd83-4921-b151-a0124e5123ef"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1328, 22, 40, "Text",ExpressionUUID->"2411f8aa-dda1-4de9-9dc1-fddd9660e667"],
+Cell[1889, 44, 283, 4, 19, "Text",ExpressionUUID->"f6b48d13-8c0b-4ef9-93ed-45794d764322"],
+Cell[2175, 50, 257, 5, 75, "Input",ExpressionUUID->"bf1791e7-23cf-49c8-9c74-acd9affefd94"],
+Cell[2435, 57, 2880, 91, 90, "Text",ExpressionUUID->"6c1ef6b1-e6be-4c2d-8a65-cb4b0073c41b"],
+Cell[CellGroupData[{
+Cell[5340, 152, 336, 8, 43, "Input",ExpressionUUID->"72a7be6f-882e-462c-86d5-a51d44e85c3c"],
+Cell[5679, 162, 472, 13, 81, "Output",ExpressionUUID->"45916f21-12bc-4a42-8df2-31aa55cd41a8"]
+}, Open  ]]
+}
+]
+*)
+
