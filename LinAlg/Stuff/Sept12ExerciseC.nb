@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     12689,        394]
-NotebookOptionsPosition[     10324,        335]
-NotebookOutlinePosition[     11992,        388]
-CellTagsIndexPosition[     11949,        385]
+NotebookDataLength[     12790,        393]
+NotebookOptionsPosition[     10425,        334]
+NotebookOutlinePosition[     12093,        387]
+CellTagsIndexPosition[     12050,        384]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -148,7 +148,7 @@ Cell[TextData[{
 c716d92fbec0"],
 
 Cell[TextData[{
- "Q3) The free variables are ",
+ "Q4) The free variables are ",
  Cell[BoxData[
   FormBox[
    RowBox[{"  ", 
@@ -156,22 +156,20 @@ Cell[TextData[{
      RowBox[{" ", GridBox[{
         {"", "", "", "", "", " ", " ", " ", " ", " "},
         {"", "", "", "", "", " ", " ", " ", " ", " "}
-       }], "\[NoBreak]"}]]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       }], "\[NoBreak]"}]]}], TraditionalForm]],ExpressionUUID->
   "1c6a5d72-7711-4648-8f10-374ad4e4ef88"]
 }], "Text",
  CellChangeTimes->{{3.9351471220993757`*^9, 3.935147170783153*^9}, {
-  3.935147268398348*^9, 3.9351473102723937`*^9}, {3.9351473509093304`*^9, 
-  3.9351474697867746`*^9}},ExpressionUUID->"8a1b71ef-2afc-4ec0-bc4d-\
+   3.935147268398348*^9, 3.9351473102723937`*^9}, {3.9351473509093304`*^9, 
+   3.9351474697867746`*^9}, 
+   3.935226754746922*^9},ExpressionUUID->"8a1b71ef-2afc-4ec0-bc4d-\
 de091f04ba80"],
 
 Cell[TextData[{
- "Q3) Write down a formula for all solutions to ",
+ "Q5) Write down a formula for all solutions to ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"Ax", "=", 
-    RowBox[{"0", "b"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"Ax", "=", "b"}], TraditionalForm]],ExpressionUUID->
   "0055f0c3-b031-4649-aea0-e393c3739f83"],
  ".  ",
  Cell[BoxData[
@@ -236,20 +234,20 @@ Cell[TextData[{
           {" "},
           {" "},
           {"   "}
-         }], ")"}]}]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+         }], ")"}]}]}]}]}], TraditionalForm]],ExpressionUUID->
   "7571248e-4ede-4aa3-8788-6609434db08f"]
 }], "Text",
  CellChangeTimes->{{3.9351471220993757`*^9, 3.935147250323879*^9}, {
-  3.935147322581953*^9, 3.9351473228688784`*^9}, {3.935147477863068*^9, 
-  3.935147525612897*^9}, {3.935147624011421*^9, 3.935147677998005*^9}, {
-  3.935147788208397*^9, 3.9351478047240047`*^9}, {3.9351481125225935`*^9, 
-  3.935148118395095*^9}, {3.9351482869733706`*^9, 
-  3.9351482874622054`*^9}},ExpressionUUID->"b5535195-43e1-43ae-a4e4-\
+   3.935147322581953*^9, 3.9351473228688784`*^9}, {3.935147477863068*^9, 
+   3.935147525612897*^9}, {3.935147624011421*^9, 3.935147677998005*^9}, {
+   3.935147788208397*^9, 3.9351478047240047`*^9}, {3.9351481125225935`*^9, 
+   3.935148118395095*^9}, {3.9351482869733706`*^9, 3.9351482874622054`*^9}, 
+   3.9352267571887617`*^9, {3.9352268317629156`*^9, 
+   3.9352268317629156`*^9}},ExpressionUUID->"b5535195-43e1-43ae-a4e4-\
 445e4ab967c3"],
 
 Cell[TextData[{
- "Q4) Fill in any pivot columns. ",
+ "Q6) Fill in any pivot columns. ",
  Cell[BoxData[
   FormBox[
    RowBox[{"(", GridBox[{
@@ -288,18 +286,18 @@ Cell[TextData[{
   "13f2c4ee-5a43-41f5-adc5-5efab9d584d6"]
 }], "Text",
  CellChangeTimes->{{3.9351471220993757`*^9, 3.935147250323879*^9}, {
-  3.935147322581953*^9, 3.9351473228688784`*^9}, {3.9351476892883244`*^9, 
-  3.935147760946969*^9}, {3.93514781293215*^9, 3.935147813390356*^9}, {
-  3.9351478568804584`*^9, 3.935147862541309*^9}, {3.9351481311156015`*^9, 
-  3.9351481675583954`*^9}},ExpressionUUID->"1a79cb97-35bd-4671-aab8-\
+   3.935147322581953*^9, 3.9351473228688784`*^9}, {3.9351476892883244`*^9, 
+   3.935147760946969*^9}, {3.93514781293215*^9, 3.935147813390356*^9}, {
+   3.9351478568804584`*^9, 3.935147862541309*^9}, {3.9351481311156015`*^9, 
+   3.9351481675583954`*^9}, 
+   3.9352267618820066`*^9},ExpressionUUID->"1a79cb97-35bd-4671-aab8-\
 e4379e2efab6"],
 
 Cell[TextData[{
- "Q4) Write down two solutions to ",
+ "Q7) Write down two different non-trivial solutions to ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"Ax", "=", "0"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"Ax", "=", "0"}], TraditionalForm]],ExpressionUUID->
   "d9d381ea-b7b1-4ffd-8c87-73fe53a9567c"],
  ". ",
  Cell[BoxData[
@@ -327,10 +325,11 @@ Cell[TextData[{
   "eb3e9048-f9d7-4ed3-8c5b-0c14ef3eb7c8"]
 }], "Text",
  CellChangeTimes->{{3.9351471220993757`*^9, 3.935147250323879*^9}, {
-  3.935147322581953*^9, 3.9351473228688784`*^9}, {3.9351476892883244`*^9, 
-  3.935147700130722*^9}, {3.935147824141492*^9, 3.935147876488541*^9}, {
-  3.935148147492958*^9, 
-  3.935148160639058*^9}},ExpressionUUID->"4088246e-c1c5-4ecd-96a8-\
+   3.935147322581953*^9, 3.9351473228688784`*^9}, {3.9351476892883244`*^9, 
+   3.935147700130722*^9}, {3.935147824141492*^9, 3.935147876488541*^9}, {
+   3.935148147492958*^9, 3.935148160639058*^9}, 3.935226764822197*^9, {
+   3.9352268377650824`*^9, 
+   3.9352268426916714`*^9}},ExpressionUUID->"4088246e-c1c5-4ecd-96a8-\
 eae09251c1ce"]
 },
 ScreenStyleEnvironment->"Printout",
@@ -392,10 +391,10 @@ Cell[1889, 44, 1816, 52, 74, "Text",ExpressionUUID->"f045f65f-81ed-45b0-a909-d5a
 Cell[3708, 98, 255, 4, 19, "Text",ExpressionUUID->"56e3517f-e847-4afa-b604-0c5e39240613"],
 Cell[3966, 104, 886, 25, 40, "Text",ExpressionUUID->"944f313d-30a1-4201-be42-1d388a5d9ca6"],
 Cell[4855, 131, 620, 16, 40, "Text",ExpressionUUID->"c7138957-52df-4593-b0b9-c716d92fbec0"],
-Cell[5478, 149, 621, 16, 40, "Text",ExpressionUUID->"8a1b71ef-2afc-4ec0-bc4d-de091f04ba80"],
-Cell[6102, 167, 2043, 81, 102, "Text",ExpressionUUID->"b5535195-43e1-43ae-a4e4-445e4ab967c3"],
-Cell[8148, 250, 1153, 44, 89, "Text",ExpressionUUID->"1a79cb97-35bd-4671-aab8-e4379e2efab6"],
-Cell[9304, 296, 1016, 37, 89, "Text",ExpressionUUID->"4088246e-c1c5-4ecd-96a8-eae09251c1ce"]
+Cell[5478, 149, 618, 16, 40, "Text",ExpressionUUID->"8a1b71ef-2afc-4ec0-bc4d-de091f04ba80"],
+Cell[6099, 167, 2044, 79, 102, "Text",ExpressionUUID->"b5535195-43e1-43ae-a4e4-445e4ab967c3"],
+Cell[8146, 248, 1185, 45, 89, "Text",ExpressionUUID->"1a79cb97-35bd-4671-aab8-e4379e2efab6"],
+Cell[9334, 295, 1087, 37, 89, "Text",ExpressionUUID->"4088246e-c1c5-4ecd-96a8-eae09251c1ce"]
 }
 ]
 *)
