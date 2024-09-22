@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      8127,        236]
-NotebookOptionsPosition[      6336,        192]
-NotebookOutlinePosition[      7502,        231]
-CellTagsIndexPosition[      7459,        228]
+NotebookDataLength[      9242,        259]
+NotebookOptionsPosition[      7511,        215]
+NotebookOutlinePosition[      8707,        255]
+CellTagsIndexPosition[      8664,        252]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -31,73 +31,24 @@ work. Fill in the appropriate blanks"
 fcf088e34ac5"],
 
 Cell[TextData[{
- "The characteristic equation of a matrix A is ",
+ "The char eqn of A is ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"  ", 
-    FrameBox[
-     RowBox[{"                ", GridBox[{
-        {"", "", "", "", "", " ", "   ", " ", " ", " "},
-        {" ", " ", " ", " ", " ", " ", "      ", " ", " ", 
-         RowBox[{"      ", 
-          RowBox[{"=", "0", " "}]}]},
-        {"", "", "", "", "", " ", " ", " ", " ", " "}
-       }]}]]}], TraditionalForm]],ExpressionUUID->
-  "e3f82152-d388-4859-a2bd-a998d92d4db7"],
- " ."
-}], "ItemNumbered",
- CellChangeTimes->{{3.905841232662465*^9, 3.9058413587266617`*^9}, {
-   3.9058414513191996`*^9, 3.9058414882897205`*^9}, {3.9058415445909324`*^9, 
-   3.9058415445909324`*^9}, {3.90584638441019*^9, 3.905846393001525*^9}, {
-   3.9062844355512056`*^9, 3.906284567147748*^9}, {3.9064522047071314`*^9, 
-   3.90645221298042*^9}, {3.9357434730548067`*^9, 3.935743480015848*^9}, {
-   3.935743534197208*^9, 3.9357435345096292`*^9}, {3.935925894346841*^9, 
-   3.935925962151493*^9}, {3.9359261552799425`*^9, 3.9359261552799425`*^9}, {
-   3.9359263264913616`*^9, 3.9359263264913616`*^9}, {3.935926967970003*^9, 
-   3.9359270098762317`*^9}, {3.93592721288142*^9, 3.9359272196498117`*^9}, {
-   3.9359273487338033`*^9, 3.9359274425470495`*^9}, 
-   3.9359275055906076`*^9},ExpressionUUID->"3bfac7bf-9b13-4026-9758-\
-708d3d76b2ca"],
-
-Cell["\<\
-
-
-
-\
-\>", "Text",
- CellChangeTimes->{{3.9359976507852917`*^9, 
-  3.93599765177992*^9}},ExpressionUUID->"7568ec07-7a66-4216-a1a2-\
-1b5f323b2350"],
-
-Cell["\<\
-
-
-
-\
-\>", "Text",
- CellChangeTimes->{{3.9359976507852917`*^9, 
-  3.93599765177992*^9}},ExpressionUUID->"2e968360-933a-44d2-8d17-\
-2c91fe67f945"],
-
-Cell[TextData[{
- "The characteristic equation of ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"A", "=", 
-    RowBox[{"(", "\[NoBreak]", GridBox[{
-       {"6", "0", "0"},
-       {"0", "1", "2"},
-       {"1", "0", "1"}
-      },
-      GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
-      GridBoxSpacings->{"Columns" -> {
-          Offset[0.27999999999999997`], {
-           Offset[0.7]}, 
-          Offset[0.27999999999999997`]}, "Rows" -> {
-          Offset[0.2], {
-           Offset[0.4]}, 
-          Offset[0.2]}}], "\[NoBreak]", ")"}]}], TraditionalForm]],
-  ExpressionUUID->"8e6c06b9-4563-4369-97b7-166ddba9de34"],
+   RowBox[{"(", "\[NoBreak]", GridBox[{
+      {"6", "2", "0"},
+      {"0", "1", "2"},
+      {"0", 
+       RowBox[{"-", "2"}], "1"}
+     },
+     GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.7]}, 
+         Offset[0.27999999999999997`]}, "Rows" -> {
+         Offset[0.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}}], "\[NoBreak]", ")"}], TraditionalForm]],
+  ExpressionUUID->"2cd11902-8851-4637-9806-3bcf87ed6ab6"],
  " is ",
  Cell[BoxData[
   FormBox[
@@ -110,39 +61,111 @@ Cell[TextData[{
           RowBox[{"=", "0", " "}]}]},
         {"", "", "", "", "", " ", " ", " ", " ", " "}
        }]}]]}], TraditionalForm]],ExpressionUUID->
-  "56fee2e0-375f-4d07-9ca0-3afb4fcd6846"],
- " \nand the eigenvalues are ",
+  "d0507d76-0838-4650-9abe-01dc5ed154af"],
+ "  with evals ",
  Cell[BoxData[
   FormBox[
    RowBox[{"  ", 
     FrameBox[
      RowBox[{"                ", GridBox[{
         {"", "", "", "", " ", " ", "   ", " ", " ", " "},
-        {"      ", "   ", " ", " ", " ", " ", "     ", "     ", " ", "  "},
+        {"      ", "   ", " ", " ", " ", " ", "     ", " ", " ", "  "},
         {"", "", "", "", "", " ", " ", " ", " ", " "}
        }]}]]}], TraditionalForm]],ExpressionUUID->
-  "cbfd6594-d2df-40cd-b5ce-1e7a93250e5d"],
- " ."
+  "2edaa564-14b9-4b7a-b3b3-8d0107615dd9"]
 }], "ItemNumbered",
- CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQBWIQ/cpIlOus5FvHCw7XJUH0I7MsVRCd4sqpBaJfvxAy
-RKbdFXj7zgPpOh6FfhBdtbiwaKnUW8eoXU+aQPSlBdNivwPpWfHz40D0rwOK
-+64GvXW80siwH0S3+x87CqIf+V0A00GSpy/oBb915LjpchNEe33N+IhM2+w8
-z6aPRLtw/Q8D0eJcNjEgeobJnFIQ7XS6pAxEB1ZPbwPReY2Bk0C0R9WaaSDa
-sExuLoh+bae6BZlWE1+4A0RfWhi1H0Q/Ss04GwikteYtuAqiNXhm3APRcbwQ
-2lzT4TGInuRx5DWIvpclpB4MpA10XoFpAC5/oU0=
-  
-  "],ExpressionUUID->"432a9a39-dadc-479f-b261-a0e405edb916"],
+ CellChangeTimes->{{3.905841232662465*^9, 3.9058413587266617`*^9}, {
+   3.9058414513191996`*^9, 3.9058414882897205`*^9}, {3.9058415445909324`*^9, 
+   3.9058415445909324`*^9}, {3.90584638441019*^9, 3.905846393001525*^9}, {
+   3.9062844355512056`*^9, 3.906284567147748*^9}, {3.9064522047071314`*^9, 
+   3.90645221298042*^9}, {3.9357434730548067`*^9, 3.935743480015848*^9}, {
+   3.935743534197208*^9, 3.9357435345096292`*^9}, {3.935925894346841*^9, 
+   3.935925962151493*^9}, {3.9359261552799425`*^9, 3.9359261552799425`*^9}, {
+   3.9359263264913616`*^9, 3.9359263264913616`*^9}, {3.935926967970003*^9, 
+   3.9359270098762317`*^9}, {3.93592721288142*^9, 3.9359272196498117`*^9}, {
+   3.9359273487338033`*^9, 3.9359274425470495`*^9}, 3.9359275055906076`*^9, {
+   3.936002729704652*^9, 
+   3.936002793242406*^9}},ExpressionUUID->"3bfac7bf-9b13-4026-9758-\
+708d3d76b2ca"],
 
 Cell["\<\
 
 
 
+
 \
 \>", "Text",
- CellChangeTimes->{{3.9359976507852917`*^9, 
-  3.93599765177992*^9}},ExpressionUUID->"3ad146b6-17e6-48b7-a024-\
-571aaf0bbd05"],
+ CellChangeTimes->{{3.936002855535186*^9, 
+  3.936002859271516*^9}},ExpressionUUID->"2a3bb854-291c-4e6c-aa0c-\
+6188fe39f0be"],
+
+Cell[TextData[{
+ "The char eqn of A is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", "\[NoBreak]", GridBox[{
+      {"6", "2"},
+      {
+       RowBox[{"-", "3"}], "1"}
+     },
+     GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.7]}, 
+         Offset[0.27999999999999997`]}, "Rows" -> {
+         Offset[0.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}}], "\[NoBreak]", ")"}], TraditionalForm]],
+  ExpressionUUID->"1e30d435-c089-46a6-98da-aa5f628d5fb4"],
+ " is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"  ", 
+    FrameBox[
+     RowBox[{"                ", GridBox[{
+        {"", "", "", "", "", " ", "   ", " ", " ", " "},
+        {" ", " ", " ", " ", " ", " ", "      ", " ", " ", 
+         RowBox[{"      ", 
+          RowBox[{"=", "0", " "}]}]},
+        {"", "", "", "", "", " ", " ", " ", " ", " "}
+       }]}]]}], TraditionalForm]],ExpressionUUID->
+  "3f5d18a9-5a6e-45e7-870b-008ea5ff6aee"],
+ "  with evals ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"  ", 
+    FrameBox[
+     RowBox[{"                ", GridBox[{
+        {"", "", "", "", " ", " ", "   ", " ", " ", " "},
+        {"      ", "   ", " ", " ", " ", " ", "     ", " ", " ", "  "},
+        {"", "", "", "", "", " ", " ", " ", " ", " "}
+       }]}]]}], TraditionalForm]],ExpressionUUID->
+  "76472f36-32e1-4f17-898b-8cc98dd8538c"]
+}], "ItemNumbered",
+ CellChangeTimes->{{3.905841232662465*^9, 3.9058413587266617`*^9}, {
+   3.9058414513191996`*^9, 3.9058414882897205`*^9}, {3.9058415445909324`*^9, 
+   3.9058415445909324`*^9}, {3.90584638441019*^9, 3.905846393001525*^9}, {
+   3.9062844355512056`*^9, 3.906284567147748*^9}, {3.9064522047071314`*^9, 
+   3.90645221298042*^9}, {3.9357434730548067`*^9, 3.935743480015848*^9}, {
+   3.935743534197208*^9, 3.9357435345096292`*^9}, {3.935925894346841*^9, 
+   3.935925962151493*^9}, {3.9359261552799425`*^9, 3.9359261552799425`*^9}, {
+   3.9359263264913616`*^9, 3.9359263264913616`*^9}, {3.935926967970003*^9, 
+   3.9359270098762317`*^9}, {3.93592721288142*^9, 3.9359272196498117`*^9}, {
+   3.9359273487338033`*^9, 3.9359274425470495`*^9}, 3.9359275055906076`*^9, {
+   3.936002729704652*^9, 
+   3.9360028220017347`*^9}},ExpressionUUID->"f0132067-78af-42b7-9687-\
+4772b9992c9a"],
+
+Cell["\<\
+
+
+
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.936002855535186*^9, 
+  3.936002859271516*^9}},ExpressionUUID->"36687317-aca9-426c-802b-\
+4e80d0e9625e"],
 
 Cell[TextData[{
  "Matrices A and B have the same eigenvalues if they are similar. \nMatrices \
@@ -215,6 +238,7 @@ PrintingOptions->{"FacingPages"->True,
 "FirstPageFace"->Right,
 "FirstPageFooter"->False,
 "FirstPageHeader"->True},
+Magnification:>1.5 Inherited,
 FrontEndVersion->"13.0 for Mac OS X ARM (64-bit) (December 2, 2021)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"042ba3fa-84d6-4947-bd7d-775725484dc4"
@@ -230,14 +254,13 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 431, 10, 58, "Text",ExpressionUUID->"6dce56ba-1200-4fc3-986d-fcf088e34ac5"],
-Cell[992, 32, 1339, 27, 79, "ItemNumbered",ExpressionUUID->"3bfac7bf-9b13-4026-9758-708d3d76b2ca"],
-Cell[2334, 61, 154, 8, 104, "Text",ExpressionUUID->"7568ec07-7a66-4216-a1a2-1b5f323b2350"],
-Cell[2491, 71, 154, 8, 104, "Text",ExpressionUUID->"2e968360-933a-44d2-8d17-2c91fe67f945"],
-Cell[2648, 81, 1962, 53, 147, "ItemNumbered",ExpressionUUID->"432a9a39-dadc-479f-b261-a0e405edb916"],
-Cell[4613, 136, 154, 8, 104, "Text",ExpressionUUID->"3ad146b6-17e6-48b7-a024-571aaf0bbd05"],
-Cell[4770, 146, 1405, 34, 100, "ItemNumbered",ExpressionUUID->"86910768-7f2b-4e5f-88b2-052cc4378e38"],
-Cell[6178, 182, 154, 8, 104, "Text",ExpressionUUID->"70f5c6bb-dcee-464f-8a6f-e3dd54240420"]
+Cell[558, 20, 431, 10, 88, "Text",ExpressionUUID->"6dce56ba-1200-4fc3-986d-fcf088e34ac5"],
+Cell[992, 32, 2332, 56, 218, "ItemNumbered",ExpressionUUID->"3bfac7bf-9b13-4026-9758-708d3d76b2ca"],
+Cell[3327, 90, 154, 9, 191, "Text",ExpressionUUID->"2a3bb854-291c-4e6c-aa0c-6188fe39f0be"],
+Cell[3484, 101, 2301, 55, 218, "ItemNumbered",ExpressionUUID->"f0132067-78af-42b7-9687-4772b9992c9a"],
+Cell[5788, 158, 154, 9, 191, "Text",ExpressionUUID->"36687317-aca9-426c-802b-4e80d0e9625e"],
+Cell[5945, 169, 1405, 34, 251, "ItemNumbered",ExpressionUUID->"86910768-7f2b-4e5f-88b2-052cc4378e38"],
+Cell[7353, 205, 154, 8, 157, "Text",ExpressionUUID->"70f5c6bb-dcee-464f-8a6f-e3dd54240420"]
 }
 ]
 *)

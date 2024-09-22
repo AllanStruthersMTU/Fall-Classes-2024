@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     14898,        408]
-NotebookOptionsPosition[     12741,        359]
-NotebookOutlinePosition[     13961,        400]
-CellTagsIndexPosition[     13918,        397]
+NotebookDataLength[     14049,        390]
+NotebookOptionsPosition[     11962,        340]
+NotebookOutlinePosition[     13213,        383]
+CellTagsIndexPosition[     13170,        380]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -89,7 +89,7 @@ Cell[TextData[{
 11484c59b4b2"],
 
 Cell[TextData[{
- "The characteristic equation of ",
+ "The char  eqn of ",
  Cell[BoxData[
   FormBox[
    RowBox[{"A", "=", 
@@ -122,7 +122,7 @@ Cell[TextData[{
         {"", "", "", "", "", " ", " ", " ", " ", " "}
        }]}]]}], TraditionalForm]],ExpressionUUID->
   "440e745e-93c1-47a9-b8a0-0834df1450d7"],
- " \nand the eigenvalues are ",
+ "  with evals ",
  Cell[BoxData[
   FormBox[
    RowBox[{"  ", 
@@ -135,33 +135,26 @@ Cell[TextData[{
   "428a5e51-523a-4b37-af68-8ec8770f0805"],
  " ."
 }], "ItemNumbered",
- CellChangeTimes->{{3.905841232662465*^9, 3.9058413587266617`*^9}, {
-  3.9058414513191996`*^9, 3.9058414882897205`*^9}, {3.9058415445909324`*^9, 
-  3.9058415445909324`*^9}, {3.90584638441019*^9, 3.905846393001525*^9}, {
-  3.9062844355512056`*^9, 3.906284567147748*^9}, {3.9064522047071314`*^9, 
-  3.90645221298042*^9}, {3.9357434730548067`*^9, 3.935743480015848*^9}, {
-  3.935743534197208*^9, 3.9357435345096292`*^9}, {3.935925894346841*^9, 
-  3.935925962151493*^9}, {3.9359261552799425`*^9, 3.9359261552799425`*^9}, {
-  3.9359263264913616`*^9, 3.9359263264913616`*^9}, {3.935926967970003*^9, 
-  3.9359270098762317`*^9}, {3.93592721288142*^9, 3.9359272196498117`*^9}, {
-  3.9359273487338033`*^9, 3.9359274425470495`*^9}, {3.935927477389927*^9, 
-  3.9359275289519277`*^9}, {3.9359277131639304`*^9, 3.9359277131639304`*^9}, {
-  3.9359277490340757`*^9, 3.9359278028322535`*^9}, {3.935997547262437*^9, 
-  3.935997613019307*^9}},ExpressionUUID->"475f5c4e-af83-491e-be2d-\
-f5a12ad7adaf"],
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQ/cpIlOus5FvHCw7XJUH0I7MsVRCd4sqpBaJfvxAy
+RKbdFXj7zgPpOh6FfhBdtbiwaKnUW8eoXU+aQPSlBdNivwPpWfHz40D0rwOK
++64GvXW80siwH0S3+x87CqIf+V0A00GSpy/oBb915LjpchNEe33N+IhM2+w8
+z6aPRLtw/Q8D0eJcNjEgeobJnFIQ7XS6pAxEB1ZPbwPReY2Bk0C0R9WaaSDa
+sExuLoh+bae6BZlWE1+4A0RfWhi1H0Q/Ss04GwikteYtuAqiD0QdtwsB0kl9
+iY4gGgDjzpMx
+  "],ExpressionUUID->"475f5c4e-af83-491e-be2d-f5a12ad7adaf"],
 
 Cell["\<\
 
 
-
 \
 \>", "Text",
- CellChangeTimes->{{3.9359976507852917`*^9, 
-  3.93599765177992*^9}},ExpressionUUID->"b2829e03-da63-4923-9626-\
+ CellChangeTimes->{{3.9359976507852917`*^9, 3.93599765177992*^9}, 
+   3.936002527897441*^9},ExpressionUUID->"b2829e03-da63-4923-9626-\
 5f91fc2b15cc"],
 
 Cell[TextData[{
- "The characteristic equation of ",
+ "The char  eqn of ",
  Cell[BoxData[
   FormBox[
    RowBox[{"A", "=", 
@@ -193,8 +186,8 @@ Cell[TextData[{
           RowBox[{"=", "0", " "}]}]},
         {"", "", "", "", "", " ", " ", " ", " ", " "}
        }]}]]}], TraditionalForm]],ExpressionUUID->
-  "48530d26-c0b4-4189-9cbe-73dda2b355e8"],
- " \nand the eigenvalues are ",
+  "cca7bd71-db34-4aad-b1c1-8ccbe4e54a46"],
+ "  with evals ",
  Cell[BoxData[
   FormBox[
    RowBox[{"  ", 
@@ -204,16 +197,16 @@ Cell[TextData[{
         {"      ", "   ", " ", " ", " ", " ", "     ", " ", " ", "  "},
         {"", "", "", "", "", " ", " ", " ", " ", " "}
        }]}]]}], TraditionalForm]],ExpressionUUID->
-  "e7ec8caf-1ba8-4a3a-845f-18424d4c50b3"],
- " ."
+  "3e1fc5a2-67d0-4c23-b0eb-e032bfc9a03d"]
 }], "ItemNumbered",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQBmIQ/cpIlOus5FvHCw7XJUH0I7MsVRCd4sqpBaJfvxAy
+1:eJxTTMoPSmViYGAQBWIQ/cpIlOus5FvHCw7XJUH0I7MsVRCd4sqpBaJfvxAy
 RKbdFXj7zgPpOh6FfhBdtbiwaKnUW8eoXU+aQPSlBdNivwPpWfHz40D0rwOK
 +64GvXW80siwH0S3+x87CqIf+V0A00GSpy/oBb915LjpchNEe33N+IhM2+w8
 z6aPRLtw/Q8D0eJcNjEgeobJnFIQ7XS6pAxEB1ZPbwPReY2Bk0C0R9WaaSDa
 sExuLoh+bae6BZlWE1+4A0RfWhi1H0Q/Ss04GwikteYtuAqiNXhm3APRcbwQ
-GgDbzpMF
++s5jLtsQIH1mylowPUN4nROIbvh4H0wDAEW9otg=
+  
   "],ExpressionUUID->"37f4c1ef-aaeb-43bf-adcd-8dd4d823b26a"],
 
 Cell["\<\
@@ -227,7 +220,7 @@ Cell["\<\
 1b5f323b2350"],
 
 Cell[TextData[{
- "The characteristic equation of ",
+ "The char eqn of ",
  Cell[BoxData[
   FormBox[
    RowBox[{"A", "=", 
@@ -246,7 +239,7 @@ Cell[TextData[{
            Offset[0.4]}, 
           Offset[0.2]}}], "\[NoBreak]", ")"}]}], TraditionalForm]],
   ExpressionUUID->"87adfec1-d5a0-4eb7-a464-e4133903d2f7"],
- " is ",
+ " is",
  Cell[BoxData[
   FormBox[
    RowBox[{"  ", 
@@ -258,27 +251,26 @@ Cell[TextData[{
           RowBox[{"=", "0", " "}]}]},
         {"", "", "", "", "", " ", " ", " ", " ", " "}
        }]}]]}], TraditionalForm]],ExpressionUUID->
-  "a1255dde-9912-413e-8d80-5d7f729b4a64"],
- " \nand the eigenvalues are ",
+  "afe61c90-083c-40e8-b418-0a11de9023b8"],
+ "  with evals ",
  Cell[BoxData[
   FormBox[
    RowBox[{"  ", 
     FrameBox[
      RowBox[{"                ", GridBox[{
         {"", "", "", "", " ", " ", "   ", " ", " ", " "},
-        {"      ", "   ", " ", " ", " ", " ", "     ", "     ", " ", "  "},
+        {"      ", "   ", " ", " ", " ", " ", "     ", " ", " ", "  "},
         {"", "", "", "", "", " ", " ", " ", " ", " "}
        }]}]]}], TraditionalForm]],ExpressionUUID->
-  "37d2d226-92b3-4f16-84fb-0ee7d19f9e39"],
- " ."
+  "15d8b542-883b-45d4-83ef-7c4dd732af58"]
 }], "ItemNumbered",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQAWIQ/cpIlOus5FvHCw7XJUH0I7MsVRCd4sqpBaJfvxAy
+1:eJxTTMoPSmViYGAQBWIQ/cpIlOus5FvHCw7XJUH0I7MsVRCd4sqpBaJfvxAy
 RKbdFXj7zgPpOh6FfhBdtbiwaKnUW8eoXU+aQPSlBdNivwPpWfHz40D0rwOK
 +64GvXW80siwH0S3+x87CqIf+V0A00GSpy/oBb915LjpchNEe33N+IhM2+w8
 z6aPRLtw/Q8D0eJcNjEgeobJnFIQ7XS6pAxEB1ZPbwPReY2Bk0C0R9WaaSDa
 sExuLoh+bae6BZlWE1+4A0RfWhi1H0Q/Ss04GwikteYtuAqiNXhm3APRcbwQ
-2lzT4TGIvsSz/zmIBgBJ+5qx
+2lzT4TGIvsSz/zmI9kvkcQkB0jvuvHMD0QAvyqIj
   
   "],ExpressionUUID->"593b88d6-32e8-4b41-adae-47894a775b33"],
 
@@ -293,7 +285,7 @@ Cell["\<\
 2c91fe67f945"],
 
 Cell[TextData[{
- "The characteristic equation of ",
+ "The char eqn of ",
  Cell[BoxData[
   FormBox[
    RowBox[{"A", "=", 
@@ -311,7 +303,7 @@ Cell[TextData[{
            Offset[0.4]}, 
           Offset[0.2]}}], "\[NoBreak]", ")"}]}], TraditionalForm]],
   ExpressionUUID->"8e6c06b9-4563-4369-97b7-166ddba9de34"],
- " is ",
+ " is",
  Cell[BoxData[
   FormBox[
    RowBox[{"  ", 
@@ -323,43 +315,33 @@ Cell[TextData[{
           RowBox[{"=", "0", " "}]}]},
         {"", "", "", "", "", " ", " ", " ", " ", " "}
        }]}]]}], TraditionalForm]],ExpressionUUID->
-  "56fee2e0-375f-4d07-9ca0-3afb4fcd6846"],
- " \nand the eigenvalues are ",
+  "1a79f0fb-b172-460c-9455-35ef9ccf4dc5"],
+ "  with evals ",
  Cell[BoxData[
   FormBox[
    RowBox[{"  ", 
     FrameBox[
      RowBox[{"                ", GridBox[{
         {"", "", "", "", " ", " ", "   ", " ", " ", " "},
-        {"      ", "   ", " ", " ", " ", " ", "     ", "     ", " ", "  "},
+        {"      ", "   ", " ", " ", " ", " ", "     ", " ", " ", "  "},
         {"", "", "", "", "", " ", " ", " ", " ", " "}
        }]}]]}], TraditionalForm]],ExpressionUUID->
-  "cbfd6594-d2df-40cd-b5ce-1e7a93250e5d"],
- " ."
+  "1f7a2d57-aaaa-44ed-ab1c-728e8d6c098c"]
 }], "ItemNumbered",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQAWIQ/cpIlOus5FvHCw7XJUH0I7MsVRCd4sqpBaJfvxAy
+1:eJxTTMoPSmViYGAQBWIQ/cpIlOus5FvHCw7XJUH0I7MsVRCd4sqpBaJfvxAy
 RKbdFXj7zgPpOh6FfhBdtbiwaKnUW8eoXU+aQPSlBdNivwPpWfHz40D0rwOK
 +64GvXW80siwH0S3+x87CqIf+V0A00GSpy/oBb915LjpchNEe33N+IhM2+w8
 z6aPRLtw/Q8D0eJcNjEgeobJnFIQ7XS6pAxEB1ZPbwPReY2Bk0C0R9WaaSDa
 sExuLoh+bae6BZlWE1+4A0RfWhi1H0Q/Ss04GwikteYtuAqiNXhm3APRcbwQ
-2lzT4TGInuRx5DWIBgBJ0Zq2
+2lzT4TGInuRx5DWI3pK2ySMESAstcPAC0QA1D6Gx
   
-  "],ExpressionUUID->"432a9a39-dadc-479f-b261-a0e405edb916"],
-
-Cell["\<\
-
-
-
-\
-\>", "Text",
- CellChangeTimes->{{3.9359976507852917`*^9, 
-  3.93599765177992*^9}},ExpressionUUID->"3ad146b6-17e6-48b7-a024-\
-571aaf0bbd05"]
+  "],ExpressionUUID->"432a9a39-dadc-479f-b261-a0e405edb916"]
 },
+ShowPageBreaks->True,
 WindowToolbars->"EditBar",
-WindowSize->{1016.4, 483},
-WindowMargins->{{Automatic, 31.799999999999955`}, {Automatic, 26.4}},
+WindowSize->{1017, 483},
+WindowMargins->{{Automatic, 49}, {85, Automatic}},
 PrintingCopies->1,
 PrintingStartingPageNumber->1,
 PrintingPageRange->{1, Automatic},
@@ -384,6 +366,7 @@ PrintingOptions->{"FacingPages"->True,
 "FirstPageFace"->Right,
 "FirstPageFooter"->False,
 "FirstPageHeader"->True},
+Magnification:>1.5 Inherited,
 FrontEndVersion->"13.0 for Mac OS X ARM (64-bit) (December 2, 2021)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"15c1621f-1b8c-49e1-b84a-08a21ead5226"
@@ -399,17 +382,16 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 431, 10, 58, "Text",ExpressionUUID->"6dce56ba-1200-4fc3-986d-fcf088e34ac5"],
-Cell[992, 32, 1339, 27, 79, "ItemNumbered",ExpressionUUID->"3bfac7bf-9b13-4026-9758-708d3d76b2ca"],
-Cell[2334, 61, 1333, 27, 79, "ItemNumbered",ExpressionUUID->"a7b8e357-05b2-4077-886e-11484c59b4b2"],
-Cell[3670, 90, 2542, 60, 147, "ItemNumbered",ExpressionUUID->"475f5c4e-af83-491e-be2d-f5a12ad7adaf"],
-Cell[6215, 152, 154, 8, 104, "Text",ExpressionUUID->"b2829e03-da63-4923-9626-5f91fc2b15cc"],
-Cell[6372, 162, 1972, 54, 147, "ItemNumbered",ExpressionUUID->"37f4c1ef-aaeb-43bf-adcd-8dd4d823b26a"],
-Cell[8347, 218, 154, 8, 104, "Text",ExpressionUUID->"7568ec07-7a66-4216-a1a2-1b5f323b2350"],
-Cell[8504, 228, 1970, 54, 147, "ItemNumbered",ExpressionUUID->"593b88d6-32e8-4b41-adae-47894a775b33"],
-Cell[10477, 284, 154, 8, 104, "Text",ExpressionUUID->"2e968360-933a-44d2-8d17-2c91fe67f945"],
-Cell[10634, 294, 1946, 53, 147, "ItemNumbered",ExpressionUUID->"432a9a39-dadc-479f-b261-a0e405edb916"],
-Cell[12583, 349, 154, 8, 104, "Text",ExpressionUUID->"3ad146b6-17e6-48b7-a024-571aaf0bbd05"]
+Cell[558, 20, 431, 10, 52, "Text",ExpressionUUID->"6dce56ba-1200-4fc3-986d-fcf088e34ac5"],
+Cell[992, 32, 1339, 27, 80, "ItemNumbered",ExpressionUUID->"3bfac7bf-9b13-4026-9758-708d3d76b2ca"],
+Cell[2334, 61, 1333, 27, 80, "ItemNumbered",ExpressionUUID->"a7b8e357-05b2-4077-886e-11484c59b4b2"],
+Cell[3670, 90, 1948, 54, 80, "ItemNumbered",ExpressionUUID->"475f5c4e-af83-491e-be2d-f5a12ad7adaf"],
+Cell[5621, 146, 176, 7, 76, "Text",ExpressionUUID->"b2829e03-da63-4923-9626-5f91fc2b15cc"],
+Cell[5800, 155, 1972, 54, 80, "ItemNumbered",ExpressionUUID->"37f4c1ef-aaeb-43bf-adcd-8dd4d823b26a"],
+Cell[7775, 211, 154, 8, 99, "Text",ExpressionUUID->"7568ec07-7a66-4216-a1a2-1b5f323b2350"],
+Cell[7932, 221, 1945, 53, 152, "ItemNumbered",ExpressionUUID->"593b88d6-32e8-4b41-adae-47894a775b33"],
+Cell[9880, 276, 154, 8, 99, "Text",ExpressionUUID->"2e968360-933a-44d2-8d17-2c91fe67f945"],
+Cell[10037, 286, 1921, 52, 80, "ItemNumbered",ExpressionUUID->"432a9a39-dadc-479f-b261-a0e405edb916"]
 }
 ]
 *)
