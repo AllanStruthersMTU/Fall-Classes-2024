@@ -1,0 +1,155 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5803,        147]
+NotebookOptionsPosition[      4774,        125]
+NotebookOutlinePosition[      5203,        142]
+CellTagsIndexPosition[      5160,        139]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "Ex 1) Compute the determinant of ",
+ Cell[BoxData[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "0", "2"},
+     {"1", "2", "1"},
+     {"1", "0", "1"}
+    }], "\[NoBreak]", ")"}]],ExpressionUUID->
+  "e1eec3c8-6210-4ae2-bc52-217dc8bbf958"]
+}], "Text",
+ CellChangeTimes->{{3.935672192858943*^9, 
+  3.9356722450211587`*^9}},ExpressionUUID->"8002a50a-7059-4e50-82de-\
+446de58ba9e0"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "   ", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.9356724534851427`*^9, 3.9356724544389787`*^9}, {
+  3.935672523723372*^9, 3.9356725277221093`*^9}, {3.935672566705061*^9, 
+  3.9356725749401307`*^9}},ExpressionUUID->"2527b4a9-5e01-40a9-800e-\
+bbb71a66c621"],
+
+Cell[TextData[{
+ "Ex 2) Compute the determinant of ",
+ Cell[BoxData[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "3", "0", "1"},
+     {"0", "2", "0", "0"},
+     {"2", "0", "0", "1"},
+     {"1", "0", "0", "0"}
+    }], "\[NoBreak]", ")"}]],ExpressionUUID->
+  "1f12c3a0-286f-4426-a2a4-a0b8a9284182"]
+}], "Text",
+ CellChangeTimes->{{3.935672192858943*^9, 3.9356722896402216`*^9}, {
+  3.9356723757822027`*^9, 
+  3.9356724036595507`*^9}},ExpressionUUID->"73d5cc8f-fd3b-4f2e-ac82-\
+333b31a23435"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "   ", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.9356724534851427`*^9, 3.9356724544389787`*^9}, {
+  3.935672523723372*^9, 3.9356725277221093`*^9}, {3.935672566705061*^9, 
+  3.9356725749401307`*^9}, {3.9356726444763975`*^9, 
+  3.935672646686698*^9}},ExpressionUUID->"f4cfadd8-f9c1-4e0b-84b6-\
+3c804d284a9c"],
+
+Cell[TextData[{
+ "Ex 3) Compute the determinant of ",
+ Cell[BoxData[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "3", "2"},
+     {"0", "1", "1"},
+     {"2", "0", "1"}
+    }], "\[NoBreak]", ")"}]],ExpressionUUID->
+  "a7f8831b-ca0a-453f-a7e1-a68dac1a0702"]
+}], "Text",
+ CellChangeTimes->{{3.935672192858943*^9, 
+  3.93567229312399*^9}},ExpressionUUID->"8bfbf3f4-7b2c-4e91-92c2-\
+5cc25aebdb95"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "   ", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.9356724534851427`*^9, 3.9356724544389787`*^9}, {
+  3.935672523723372*^9, 3.9356725277221093`*^9}, {3.935672566705061*^9, 
+  3.9356725749401307`*^9}},ExpressionUUID->"c5c19cb9-e107-4a74-94ed-\
+0fc7a6a45500"],
+
+Cell[TextData[{
+ "Ex 4) Compute the determinant of ",
+ Cell[BoxData[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{"2", "-", "\[Lambda]"}], "1"},
+     {"1", 
+      RowBox[{"2", "-", "\[Lambda]"}]}
+    }], "\[NoBreak]", ")"}]],ExpressionUUID->
+  "e1a508df-6621-401b-bb19-94c77f24c9f8"]
+}], "Text",
+ CellChangeTimes->{{3.935672192858943*^9, 
+  3.9356723367940254`*^9}},ExpressionUUID->"b0a513d7-5edc-4a46-98ff-\
+ec0480e2a95f"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.9356724653912907`*^9, 3.9356724661713133`*^9}, {
+  3.9356725371930428`*^9, 
+  3.935672538298279*^9}},ExpressionUUID->"417a7b96-1547-439a-8112-\
+fee162898526"]
+},
+ShowPageBreaks->True,
+WindowSize->{1140, 614.5},
+WindowMargins->{{Automatic, -1353.5}, {120, Automatic}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"db87667e-e8b9-4314-ae36-0c543293ef4f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 400, 12, 45, "Text",ExpressionUUID->"8002a50a-7059-4e50-82de-446de58ba9e0"],
+Cell[961, 34, 604, 9, 212, "Input",ExpressionUUID->"2527b4a9-5e01-40a9-800e-bbb71a66c621"],
+Cell[1568, 45, 495, 14, 59, "Text",ExpressionUUID->"73d5cc8f-fd3b-4f2e-ac82-333b31a23435"],
+Cell[2066, 61, 799, 12, 294, "Input",ExpressionUUID->"f4cfadd8-f9c1-4e0b-84b6-3c804d284a9c"],
+Cell[2868, 75, 397, 12, 45, "Text",ExpressionUUID->"8bfbf3f4-7b2c-4e91-92c2-5cc25aebdb95"],
+Cell[3268, 89, 604, 9, 212, "Input",ExpressionUUID->"c5c19cb9-e107-4a74-94ed-0fc7a6a45500"],
+Cell[3875, 100, 438, 13, 31, "Text",ExpressionUUID->"b0a513d7-5edc-4a46-98ff-ec0480e2a95f"],
+Cell[4316, 115, 454, 8, 157, "Input",ExpressionUUID->"417a7b96-1547-439a-8112-fee162898526"]
+}
+]
+*)
+

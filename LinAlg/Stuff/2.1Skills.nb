@@ -1,0 +1,322 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10591,        314]
+NotebookOptionsPosition[      8687,        260]
+NotebookOutlinePosition[     10357,        313]
+CellTagsIndexPosition[     10314,        310]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "Name: ",
+ StyleBox["                                             ",
+  FontVariations->{"Underline"->True}],
+ "      \t\tID #:______________________\nFill in all the gaps"
+}], "Text",
+ CellMargins->{{19.5, 10.}, {7., 8.}},
+ CellChangeTimes->{{3.9022119421591744`*^9, 3.9022119446720896`*^9}, {
+   3.902212079422366*^9, 3.9022120841135693`*^9}, {3.9028330157292385`*^9, 
+   3.902833096866953*^9}, {3.9028342273180037`*^9, 3.902834227902426*^9}, {
+   3.902837320926549*^9, 3.902837334801858*^9}, {3.902837480800968*^9, 
+   3.9028376022475977`*^9}, {3.902837766898444*^9, 3.902837794967425*^9}, {
+   3.9028379204990172`*^9, 3.9028379228806677`*^9}, {3.902838084663468*^9, 
+   3.9028380950331335`*^9}, {3.902838373481942*^9, 3.9028384110966396`*^9}, {
+   3.9028384693131523`*^9, 3.902838490608468*^9}, {3.9030833930970917`*^9, 
+   3.9030833970394354`*^9}, {3.903085234827416*^9, 3.9030852903643475`*^9}, {
+   3.933586789757003*^9, 3.933586812442255*^9}, 3.9335868529251833`*^9, {
+   3.935066668597777*^9, 
+   3.935066672893199*^9}},ExpressionUUID->"2411f8aa-dda1-4de9-9dc1-\
+fddd9660e667"],
+
+Cell[TextData[{
+ "Q1) For ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"A", "=", 
+    TagBox[
+     RowBox[{"(", "\[NoBreak]", GridBox[{
+        {"1", "3"},
+        {"2", "0"}
+       },
+       GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+       GridBoxSpacings->{"Columns" -> {
+           Offset[0.27999999999999997`], {
+            Offset[0.7]}, 
+           Offset[0.27999999999999997`]}, "Rows" -> {
+           Offset[0.2], {
+            Offset[0.4]}, 
+           Offset[0.2]}}], "\[NoBreak]", ")"}],
+     Function[BoxForm`e$, 
+      MatrixForm[BoxForm`e$]]]}], TraditionalForm]],ExpressionUUID->
+  "e92d26a3-bdea-4788-88e2-adb4e5458834"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"B", "=", 
+    TagBox[
+     RowBox[{"(", "\[NoBreak]", GridBox[{
+        {"3", "1", "1"},
+        {"0", 
+         RowBox[{"-", "1"}], "0"}
+       },
+       GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+       GridBoxSpacings->{"Columns" -> {
+           Offset[0.27999999999999997`], {
+            Offset[0.7]}, 
+           Offset[0.27999999999999997`]}, "Rows" -> {
+           Offset[0.2], {
+            Offset[0.4]}, 
+           Offset[0.2]}}], "\[NoBreak]", ")"}],
+     Function[BoxForm`e$, 
+      MatrixForm[BoxForm`e$]]]}], TraditionalForm]],ExpressionUUID->
+  "241ebad8-2c6b-46c3-a8b7-2418588a6e1a"],
+ ".\na) Compute the product ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"AB", "=", 
+    TagBox[
+     RowBox[{"(", "\[NoBreak]", 
+      RowBox[{GridBox[{
+         {"", "", "                ", "", ""},
+         {"", "", "", "", ""},
+         {"", "", "", "", ""},
+         {"", "", "", "", ""},
+         {"", "", "", "", ""}
+        }], "\[NoBreak]", GridBox[{
+         {"", "", "                ", "", ""},
+         {"", "", "", "", ""},
+         {"", "", "", "", ""},
+         {"", "", "", "", ""},
+         {"", "", "", "", ""}
+        }]}], "\[NoBreak]", ")"}],
+     Function[BoxForm`e$, 
+      MatrixForm[BoxForm`e$]]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "660bee30-1476-4bf2-84cf-17d86f3ec18f"],
+ "\n\nb) Explain why the product ",
+ Cell[BoxData[
+  FormBox["BA", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e883acd9-cff9-4029-8fa9-5dc3aeeee9ca"],
+ " does not exist"
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQ/ebTo5s3Rd86vmMtvAOipQ/oqd4C0nye7C4gevEC
+1inLxN46vjlyYh2IFlKp2wyivQLbL4HosFsNN0H0n47+hyB6hpov53IgrTNx
+BReIfsbv07kWSGtEBoLpYydKNxoEAtWfbt4JopfYxx8A0S73Px0G0feSo06B
+aKMVsy6CaJ/Fe26D6BfXjoBptrMfmQyB9KNfuRwgOmRRG5cRSF3dUWkQzf+L
+OcwKSFct44wF0Sl5W/KQ6TeH51t2A+k5+6Y4g2gp6bneIHoD938IbX8+AESf
+670Npg8V18WCaKXM5BIQDQA6PpcV
+  "],
+ FontColor->GrayLevel[
+  0],ExpressionUUID->"f045f65f-81ed-45b0-a909-d5a0ba8f577e"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.935066806654664*^9, 
+  3.935066807226904*^9}},ExpressionUUID->"d56f6ffc-949d-4c44-911c-\
+10490735a974"],
+
+Cell[TextData[{
+ "Q2)  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"AB", "=", 
+    StyleBox[
+     TagBox[
+      RowBox[{"(", "\[NoBreak]", GridBox[{
+         {"1", 
+          RowBox[{"-", "3"}], 
+          RowBox[{"-", "18"}], "9"},
+         {
+          RowBox[{"-", "15"}], "3", 
+          RowBox[{"-", "4"}], "2"},
+         {"1", "8", "17", 
+          StyleBox["2",
+           FontColor->GrayLevel[1]]},
+         {"5", 
+          RowBox[{"-", "12"}], 
+          RowBox[{"-", "20"}], "2"},
+         {"3", 
+          StyleBox["5",
+           FontColor->GrayLevel[1]], "6", "2"},
+         {"8", 
+          RowBox[{"-", "1"}], 
+          RowBox[{"-", "25"}], "13"}
+        },
+        GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.7]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}], "\[NoBreak]", ")"}],
+      Function[BoxForm`e$, 
+       MatrixForm[BoxForm`e$]]],
+     FontSize->18]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "691176a2-70c3-4b49-9754-a2975ff6e0ce"],
+ " where ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"A", "=", 
+    TagBox[
+     RowBox[{"(", "\[NoBreak]", GridBox[{
+        {
+         RowBox[{"-", "1"}], 
+         RowBox[{"-", "1"}], "4", "2", "4"},
+        {
+         RowBox[{"-", "2"}], "0", "4", "2", 
+         RowBox[{"-", "1"}]},
+        {"0", 
+         RowBox[{"-", "2"}], 
+         RowBox[{"-", "3"}], 
+         RowBox[{"-", "3"}], 
+         RowBox[{"-", "2"}]},
+        {
+         RowBox[{"-", "1"}], "1", 
+         RowBox[{"-", "1"}], "2", "3"},
+        {"0", "0", 
+         RowBox[{"-", "2"}], 
+         RowBox[{"-", "2"}], 
+         RowBox[{"-", "1"}]},
+        {
+         RowBox[{"-", "3"}], "3", 
+         RowBox[{"-", "3"}], 
+         RowBox[{"-", "1"}], "2"}
+       },
+       GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+       GridBoxSpacings->{"Columns" -> {
+           Offset[0.27999999999999997`], {
+            Offset[0.7]}, 
+           Offset[0.27999999999999997`]}, "Rows" -> {
+           Offset[0.2], {
+            Offset[0.4]}, 
+           Offset[0.2]}}], "\[NoBreak]", ")"}],
+     Function[BoxForm`e$, 
+      MatrixForm[BoxForm`e$]]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "88bc472c-97b3-4346-a953-54be015e9016"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"B", "=", 
+    TagBox[
+     RowBox[{"(", "\[NoBreak]", GridBox[{
+        {"2", 
+         RowBox[{"-", "1"}], "3", 
+         RowBox[{"-", "3"}]},
+        {"1", "0", 
+         RowBox[{"-", "3"}], "0"},
+        {
+         RowBox[{"-", "1"}], "2", "0", "1"},
+        {
+         RowBox[{"-", "2"}], 
+         RowBox[{"-", "4"}], 
+         RowBox[{"-", "1"}], 
+         RowBox[{"-", "3"}]},
+        {"3", 
+         RowBox[{"-", "1"}], 
+         RowBox[{"-", "4"}], "2"}
+       },
+       GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+       GridBoxSpacings->{"Columns" -> {
+           Offset[0.27999999999999997`], {
+            Offset[0.7]}, 
+           Offset[0.27999999999999997`]}, "Rows" -> {
+           Offset[0.2], {
+            Offset[0.4]}, 
+           Offset[0.2]}}], "\[NoBreak]", ")"}],
+     Function[BoxForm`e$, 
+      MatrixForm[BoxForm`e$]]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1cb36f46-259d-43f7-84ce-10248d43d2d4"],
+ "\n"
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQB2IQ/ebTo5s3Rd86vmMtvAOipQ/oqd4C0nye7C4gevEC
+1inLxN46vjlyYh2IFlKp2wyivQLbL4HosFsNN0H0n47+hyB6hpov53IgrTNx
+BReIfsbv07kWSGtEBoLpYydKNxoEAtWfbt4JopfYxx8A0S73Px0G0feSo06B
+aKMVsy6CaJ/Fe26D6BfXjoBptrMfmQyB9KNfuRwgOmRRG5cRSF3dUWkQzf+L
+OcwKSFct44wF0Sl5W/KQ6TeH51t2A+k5+6Y4g2gp6bneIHoD938IbX8+AESf
+670Npi3kGUJBtIJ4aBiIbmv+VgKiW/9Fl4Jo1dykGhDNtGFRF4i+d+X8BLC+
+s7FTQbR4odxMEP2KUR9MAwCxjrWT
+  "],
+ FontColor->GrayLevel[
+  0],ExpressionUUID->"625605a8-a078-4e3d-b8cf-c404a11a0dcf"]
+},
+ScreenStyleEnvironment->"Printout",
+PrintingStyleEnvironment->"Working",
+WindowToolbars->{"RulerBar", "EditBar"},
+WindowSize->{1141., 719.5},
+WindowMargins->{{1783.5, Automatic}, {-34.5, Automatic}},
+PrintingCopies->1,
+PrintingStartingPageNumber->1,
+PrintingPageRange->{Automatic, Automatic},
+PageHeaders->{{
+   Cell[
+    TextData[{
+      StyleBox[
+       CounterBox["Page"], "PageNumber"], "   ", "|", " ", 
+      ValueBox["FileName"]}], "Header", 
+    CellMargins -> {{0, Inherited}, {Inherited, Inherited}}], None, None}, {
+  None, None, 
+   Cell[
+    TextData[{
+      ValueBox["FileName"], " ", "|", "   ", 
+      StyleBox[
+       CounterBox["Page"], "PageNumber"]}], "Header", 
+    CellMargins -> {{Inherited, 0}, {Inherited, Inherited}}]}},
+PageFooters->{{None, None, None}, {None, None, None}},
+PageHeaderLines->{True, False},
+PageFooterLines->{False, False},
+PrintingOptions->{"FacingPages"->True,
+"FirstPageFace"->Right,
+"FirstPageFooter"->True,
+"FirstPageHeader"->True,
+"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{612, 792}},
+TaggingRules-><|"TryRealOnly" -> False|>,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData["Output"]]}, Visible -> False, FrontEndVersion -> 
+  "13.3 for Microsoft Windows (64-bit) (July 24, 2023)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"1165c432-4f38-4616-b77b-53a1ccb5485a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1102, 19, 40, "Text",ExpressionUUID->"2411f8aa-dda1-4de9-9dc1-fddd9660e667"],
+Cell[1663, 41, 2733, 81, 134, "Text",ExpressionUUID->"f045f65f-81ed-45b0-a909-d5a0ba8f577e"],
+Cell[4399, 124, 255, 5, 75, "Input",ExpressionUUID->"d56f6ffc-949d-4c44-911c-10490735a974"],
+Cell[4657, 131, 4026, 127, 120, "Text",ExpressionUUID->"625605a8-a078-4e3d-b8cf-c404a11a0dcf"]
+}
+]
+*)
+
