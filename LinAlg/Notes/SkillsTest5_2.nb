@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     42925,       1150]
+NotebookDataLength[     43646,       1172]
 NotebookOptionsPosition[     38809,       1090]
-NotebookOutlinePosition[     39254,       1107]
-CellTagsIndexPosition[     39211,       1104]
+NotebookOutlinePosition[     39975,       1129]
+CellTagsIndexPosition[     39932,       1126]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1091,9 +1091,31 @@ AGAis00=
 WindowToolbars->"EditBar",
 WindowSize->{1016.4, 483},
 WindowMargins->{{Automatic, 31.799999999999955`}, {Automatic, 26.4}},
+PrintingStartingPageNumber->1,
+PageHeaders->{{
+   Cell[
+    TextData[{
+      StyleBox[
+       CounterBox["Page"], "PageNumber"], "   ", "|", " ", 
+      ValueBox["FileName"]}], "Header", 
+    CellMargins -> {{0, Inherited}, {Inherited, Inherited}}], None, None}, {
+  None, None, 
+   Cell[
+    TextData[{
+      ValueBox["FileName"], " ", "|", "   ", 
+      StyleBox[
+       CounterBox["Page"], "PageNumber"]}], "Header", 
+    CellMargins -> {{Inherited, 0}, {Inherited, Inherited}}]}},
+PageFooters->{{None, None, None}, {None, None, None}},
+PageHeaderLines->{False, False},
+PageFooterLines->{False, False},
+PrintingOptions->{"FacingPages"->True,
+"FirstPageFace"->Right,
+"FirstPageFooter"->False,
+"FirstPageHeader"->True},
 FrontEndVersion->"13.0 for Mac OS X ARM (64-bit) (December 2, 2021)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"34723ebe-17ec-4428-9dd8-2e79ef7b1929"
+ExpressionUUID->"15c1621f-1b8c-49e1-b84a-08a21ead5226"
 ]
 (* End of Notebook Content *)
 
